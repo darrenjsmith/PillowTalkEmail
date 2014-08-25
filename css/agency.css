@@ -199,7 +199,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-default .navbar-brand {
-    font-size: 2em;
+    font-size: 3em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
