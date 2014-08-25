@@ -276,6 +276,24 @@ header .intro-text .intro-lead-in {
     line-height: 30px;
     margin-bottom: 40px;
   }
+  header #mc_embed_signup .mc-field-group {
+    display: inline;
+  }
+  header #mc_embed_signup .mc-btn {
+    display: inline;
+  }
+  header .form-group {
+    margin-bottom: 25px;
+  }
+  header .form-group input,
+  header .form-group textarea {
+    padding: 20px;
+  }
+  header .form-group input.form-control {
+    height: auto;
+    width: 250px;
+    display: inline;
+  }
 }
 section {
   padding: 100px 0;
