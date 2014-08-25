@@ -144,7 +144,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-brand {
   color: #ff8c00;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Pacifico", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -203,6 +203,7 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    text-shadow: 1px 1px 0px #fff;
   }
   .navbar-default .navbar-nav > .active > a {
     border-radius: 3px;
@@ -213,6 +214,7 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
+    text-shadow: none;
   }
 }
 header {
@@ -305,25 +307,25 @@ header .intro-text .mc-field-group {
   header ::-webkit-input-placeholder {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    color: #bbbbbb;
+    color: #444444;
   }
   header :-moz-placeholder {
     /* Firefox 18- */
   
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    color: #bbbbbb;
+    color: #444444;
   }
   header ::-moz-placeholder {
     /* Firefox 19+ */
   
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    color: #bbbbbb;
+    color: #444444;
   }
   header :-ms-input-placeholder {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #bbbbbb;
+    color: #444444;
   }
   header .text-danger {
     color: #e74c3c;
