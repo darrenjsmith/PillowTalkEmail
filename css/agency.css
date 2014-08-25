@@ -251,52 +251,6 @@ header .intro-text .intro-lead-in {
   line-height: 28px;
   margin-bottom: 25px;
 }
-header .form-group {
-  margin-bottom: 25px;
-}
-header .form-group input,
-header .form-group textarea {
-  padding: 20px;
-  width: 140px;
-}
-header .form-group input.form-control {
-  height: auto;
-}
-header .form-group textarea.form-control {
-  height: 236px;
-}
-header .form-control:focus {
-  border-color: #fed136;
-  box-shadow: none;
-  width: 200px;
-}
-header ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  color: #bbbbbb;
-}
-header :-moz-placeholder {
-  /* Firefox 18- */
-
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  color: #bbbbbb;
-}
-header ::-moz-placeholder {
-  /* Firefox 19+ */
-
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  color: #bbbbbb;
-}
-header :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  color: #bbbbbb;
-}
-header .text-danger {
-  color: #e74c3c;
-}
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 200px;
