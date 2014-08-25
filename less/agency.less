@@ -169,7 +169,8 @@ header {
 	background-position: center center;
 	.background-cover;
 	text-align: center;
-	color: black;
+	color: white;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
 	.intro-text {
 		padding-top: 100px;
 		padding-bottom: 50px;
@@ -192,6 +193,9 @@ header {
 			font-size: 22px;
 			line-height: 28px;
 			margin-bottom: 25px;
+		}
+		.mc-field-group {
+			margin-bottom: 5px;
 		}
 	}
 }
@@ -222,13 +226,11 @@ header {
 				margin-bottom: 40px;
 			}
 		}
-		#mc_embed_signup {
-			.mc-field-group {
-				display: inline;
-			}
-			.mc-btn {
-				display: inline;
-			}
+		.mc-field-group {
+			display: inline;
+		}
+		.mc-btn {
+			display: inline;
 		}
 		.form-group {
 			margin-bottom: 25px;
@@ -241,6 +243,32 @@ header {
 				width: 250px;
 				display: inline;
 			}
+		}
+		.form-control:focus {
+			border-color: @brand-primary;
+			box-shadow: none;
+		}
+		::-webkit-input-placeholder {
+		   	.heading-font;
+		   	font-weight: 700;
+		   	color: @placeholder-text;
+		}
+		:-moz-placeholder { /* Firefox 18- */
+		   	.heading-font;
+		   	font-weight: 700;
+		   	color: @placeholder-text;
+		}
+		::-moz-placeholder {  /* Firefox 19+ */
+		   	.heading-font;
+		   	font-weight: 700;
+		   	color: @placeholder-text;
+		}
+		:-ms-input-placeholder {  
+		   	.heading-font;
+		   	color: @placeholder-text;
+		}
+		.text-danger {
+			color: @brand-danger;
 		}
 	}
 }
