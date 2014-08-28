@@ -166,6 +166,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:focus {
   background-color: #ff8c00;
 }
+.navbar-default .nav li {
+  height: 100%;
+}
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
