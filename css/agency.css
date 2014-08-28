@@ -208,7 +208,8 @@ fieldset[disabled] .btn-xl.active {
   .navbar-default .navbar-nav > .active > a {
     border-radius: 3px;
   }
-  .navbar-default div.fb-like {
+  .navbar-default div.fb-like,
+  .navbar-default a.twitter-share-button {
     padding-top: 15px;
   }
   .navbar-default.navbar-shrink {
