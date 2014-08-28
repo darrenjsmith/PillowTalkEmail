@@ -166,9 +166,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:focus {
   background-color: #ff8c00;
 }
-.navbar-default .nav li {
-  height: 100%;
-}
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -212,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 3px;
   }
   .navbar-default div.fb-like {
-    vertical-align: middle;
+    padding-top: 15px;
   }
   .navbar-default.navbar-shrink {
     background-color: #222222;
