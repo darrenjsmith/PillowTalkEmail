@@ -166,6 +166,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:focus {
   background-color: #ff8c00;
 }
+.navbar-default .nav li div.addthis_native_toolbox {
+  padding-top: 15px;
+}
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
