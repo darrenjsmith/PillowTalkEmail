@@ -46,6 +46,16 @@
 </head>
 
 <body id="page-top" class="index">
+    
+    <!-- fb like initialization -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=246916885335534&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -61,24 +71,24 @@
                 <a class="navbar-brand page-scroll" href="#page-top">Pillow Talk.</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling
+            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#why">Why</a>
+                        <a class="page-scroll" href="http://blog.pillowtalk.io">Blog</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a class="page-scroll" href="#what">What</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
-            /.navbar-collapse -->
+            <!--/.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -161,6 +171,7 @@
 					<p class="large text-muted">Pillow Talk is mostly safe for work, but any NSFW content is clearly highlighted.</p>
                     <p class="large text-muted">Too many people are having mediocre sex. The more Pillow Talk the better!</p>
                     <p class="large text-muted">We deliver an email of goodness to <b>ladies and gentlemen, every Friday</b>.</p>
+                    <div class="fb-like" data-href="https://www.facebook.com/PillowTalk.io" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
                 </div>
             </div>		
         </div>
