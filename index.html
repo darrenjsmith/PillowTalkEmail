@@ -50,8 +50,15 @@
             passthrough : {
                 twitter: {
                     via: "TryPillow",
-                    url: "blurb"
                 }
+            },
+            url_transforms : {
+                shorten: {
+                    twitter: 'bitly'
+                }
+            }, 
+            shorteners : {
+                bitly : {} 
             }
         }
     </script>
