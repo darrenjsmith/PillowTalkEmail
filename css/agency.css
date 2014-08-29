@@ -173,7 +173,7 @@ fieldset[disabled] .btn-xl.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
-  color: grey;
+  color: white;
   /*text-shadow: 0px 0px 1px #000;*/
 
 }
@@ -221,16 +221,16 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/start-bg.jpg');
+  background-image: url('../img/header-bg.jpg');
   background-repeat: none;
   background-attachment: scroll;
-  background-position: right center;
+  background-position: top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: #333;
   text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 header .intro-text {
@@ -243,6 +243,11 @@ header .intro-text .intro-title {
   margin-bottom: 20px;
   font-weight: 700;
   line-height: 1em;
+  /*background: rgb(0, 0, 0); /* fallback color
+            background: rgba(0, 0, 0, 0.7);
+            padding-top: 20px;
+            padding-bottom: 20px;*/
+
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -282,8 +287,7 @@ header .intro-text .mc-field-group {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 260px;
   }
   header .intro-text .intro-title {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;

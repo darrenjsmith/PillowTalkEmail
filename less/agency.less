@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
     			.heading-font;
     			font-weight: 400;
     			letter-spacing: 1px;
-    			color: grey;
+    			color: white;
                 /*text-shadow: 0px 0px 1px #000;*/
     			&:hover,
     			&:focus {
@@ -156,8 +156,6 @@ h1, h2, h3, h4, h5, h6 {
 		.navbar-nav>.active>a {
 			border-radius: 3px;
 		}
-        div.addthis_native_toolbox {
-        }
     }
     .navbar-default.navbar-shrink {
     	background-color: @gray-darkest;
@@ -170,13 +168,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-	background-image: url('../img/start-bg.jpg');
+	background-image: url('../img/header-bg.jpg');
 	background-repeat: none;
 	background-attachment: scroll;
-	background-position: right center;
+    background-position: top center;
 	.background-cover;
 	text-align: center;
-	color: white;
+	color: #333;
 	text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
 	.intro-text {
 		padding-top: 100px;
@@ -187,6 +185,10 @@ header {
             margin-bottom: 20px;                
             font-weight: 700;
 			line-height: 1em;
+            /*background: rgb(0, 0, 0); /* fallback color
+            background: rgba(0, 0, 0, 0.7);
+            padding-top: 20px;
+            padding-bottom: 20px;*/
         }
 		.intro-heading {
 			.heading-font;
@@ -232,8 +234,7 @@ header {
 @media(min-width:768px) {
 	header {
 		.intro-text {
-			padding-top: 200px;
-			padding-bottom: 200px;
+			padding-top: 260px;
             .intro-title {
                 .heading-font;
                 font-size: 60px;
