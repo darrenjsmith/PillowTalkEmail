@@ -285,7 +285,16 @@ header .intro-text .intro-lead-out b {
 header .intro-text .mc-field-group {
   margin-bottom: 5px;
 }
+header .intro-text .wf-contbox {
+  margin-bottom: 5px;
+}
 @media (min-width: 768px) {
+  header {
+    /*div.wf-body {
+        display: inline-flex;
+      }*/
+  
+  }
   header .intro-text {
     padding-top: 260px;
   }
@@ -328,6 +337,12 @@ header .intro-text .mc-field-group {
     font-size: 18px;
     padding-bottom: 30px;
     text-shadow: none;
+  }
+  header .wf-contbox {
+    display: inline;
+  }
+  header .wf-inputpos {
+    display: inline;
   }
   header .mc-field-group {
     display: inline;
