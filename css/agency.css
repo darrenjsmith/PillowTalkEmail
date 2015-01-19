@@ -464,6 +464,30 @@ section h3.section-statement {
 aside.clients img {
   margin: 50px auto;
 }
+#purchase h2 {
+  color: white;
+}
+#purchase h3 {
+  color: white;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+#purchase h4 {
+  color: white;
+}
+#purchase ul {
+  color: #cccbcb;
+  font-weight: 100;
+  list-style-type: none;
+  -webkit-margin-before: 0em;
+  -webkit-padding-start: 0px;
+}
+#purchase li {
+  padding-bottom: 5px;
+}
+#purchase .section-subheading {
+  margin-bottom: 25px;
+}
 /* section#contact {
 	background-color: @gray-darkest;
 	background-image: url('../img/map-image.png');
