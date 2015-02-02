@@ -468,6 +468,16 @@ section h3.section-statement {
 aside.clients img {
   margin: 50px auto;
 }
+#purchase {
+  background-image: url('../img/start-bg2.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 #purchase h2 {
   color: white;
 }
